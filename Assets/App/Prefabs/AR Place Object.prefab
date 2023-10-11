@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5052851894624100538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5052851894624100541}
+  - component: {fileID: 5052851894624100540}
+  m_Layer: 0
+  m_Name: AR Place Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5052851894624100541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052851894624100538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 443.4438, y: 172.41733, z: -1.1751801}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5052851894624100540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5052851894624100538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f46975026056b7d43ae40e2218e64a36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectToPlace: {fileID: 3258027366573948303, guid: ed8176528f7bad9499b0d1cf2d353f96, type: 3}
+  set1:
+  - {fileID: 4442359372122455998, guid: c8962dcafa0617f459c3cb224aeb7a6b, type: 3}
+  set2:
+  - {fileID: 7584239014486066422, guid: cd101158b3e244f4fbbd7edbbe31d39b, type: 3}
+  set3:
+  - {fileID: 3258027366573948303, guid: ed8176528f7bad9499b0d1cf2d353f96, type: 3}
+  set4:
+  - {fileID: 4442359372122455998, guid: c8962dcafa0617f459c3cb224aeb7a6b, type: 3}
+  - {fileID: 7584239014486066422, guid: cd101158b3e244f4fbbd7edbbe31d39b, type: 3}
+  - {fileID: 3258027366573948303, guid: ed8176528f7bad9499b0d1cf2d353f96, type: 3}
+  RotateSlider: {fileID: 0}
+  DebugText: {fileID: 0}
+  ContentBox: {fileID: 0}
+  ObjectButton: {fileID: 927093473794685967, guid: 17dd5d4beeeb18d419bd317d84da4e39, type: 3}
+  ArCamera: {fileID: 0}
+  furns:
+    serializedVersion: 2
+    m_Bits: 16
